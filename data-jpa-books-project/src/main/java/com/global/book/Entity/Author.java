@@ -1,12 +1,12 @@
 package com.global.book.Entity;
 
 import com.global.book.Base.BaseEntity;
+import com.global.book.Validitor.ipAddress;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Pattern;
 
 @Entity
 @Table(name = "authors")
@@ -15,7 +15,8 @@ public class Author extends BaseEntity<Long>{
 	@NotNull
 	private String name;
 	
-	@Pattern(regexp = "^([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})$")
+	//@Pattern(regexp = "^([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})$")
+	@ipAddress(message = "Enter valid ip!")
 	private String ipAddress;
 	
 	@Email

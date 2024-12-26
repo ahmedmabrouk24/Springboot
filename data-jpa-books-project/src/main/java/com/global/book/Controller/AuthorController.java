@@ -1,5 +1,7 @@
 package com.global.book.Controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -12,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.global.book.Entity.Author;
+import com.global.book.Repository.AuthorSpec;
 import com.global.book.Service.AuthorService;
 
 import jakarta.validation.Valid;
@@ -45,5 +48,9 @@ public class AuthorController {
 	@DeleteMapping("/delete/{id}")
 	public void delete(@PathVariable Long id) {
 		authorService.delete(id);	
+	}
+	@GetMapping("/findallspec/{authorName}")
+	public List<Author> findByAuthorspec(@PathVariable String authorName){
+		return authorService.findByAuthorspec(authorName);
 	}
 }
