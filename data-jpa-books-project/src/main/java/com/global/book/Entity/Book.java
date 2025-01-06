@@ -26,6 +26,17 @@ public class Book extends BaseEntity<Long>{
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "author_id")
 	private Author author;
+	
+	private String bookIcon;
+	
+	public String getBookIcon() {
+		return bookIcon;
+	}
+
+	public void setBookIcon(String bookIcon) {
+		this.bookIcon = bookIcon;
+	}
+
 	public String getName() {
 		return name;
 	}

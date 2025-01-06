@@ -8,5 +8,5 @@ import com.global.book.Entity.Author;
 
 @Repository
 public interface AuthorRepo extends BaseRepository<Author, Long>, JpaSpecificationExecutor<Author>{
-	
+	Author findByEmail(String email);
 }

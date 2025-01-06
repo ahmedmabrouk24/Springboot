@@ -1,7 +1,14 @@
 package com.global.book.Base;
 
+import java.util.List;
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.MessageSource;
+import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.http.ResponseEntity;
+
+import com.global.book.Error.RecordNotFoundException;
 
 import jakarta.persistence.MappedSuperclass;
 
@@ -10,17 +17,32 @@ public class BaseService<T extends BaseEntity<ID>, ID extends Number> {
 	@Autowired
 	private BaseRepository<T, ID> baseRepository;
 	
+	@Autowired
+	private MessageSource messageSource;
+	
 	public T findById(ID id) {
-		return baseRepository.findById(id).orElseThrow();
+		Optional<T> entity = baseRepository.findById(id);
+		if (entity.isPresent()) {
+			return baseRepository.findById(id).get();
+		}
+		else {
+			String [] msgParam = {id.toString()};
+			String msg = messageSource.getMessage("jakarta.validation.constraints.recored-not-found.message", msgParam, LocaleContextHolder.getLocale());
+			throw new RecordNotFoundException(msg);
+		}
+		
 	}
 	public T findByName(String name) {
 		return baseRepository.findByName(name);
 	}
-	public ResponseEntity<?> findAll() {
-		return ResponseEntity.ok(baseRepository.findAll());
+	public List<T> findAll() {
+		return baseRepository.findAll();
 	}
 	public ResponseEntity<?> insert(T entity) {
 		return ResponseEntity.ok(baseRepository.save(entity));
+	}
+	public ResponseEntity<?> insertAll(List<T> entity) {
+		return ResponseEntity.ok(baseRepository.saveAll(entity));
 	}
 	public ResponseEntity<?> update(T entity) {
 		return ResponseEntity.ok(baseRepository.save(entity));

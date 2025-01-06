@@ -16,12 +16,20 @@ public class Author extends BaseEntity<Long>{
 	private String name;
 	
 	//@Pattern(regexp = "^([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})$")
-	@ipAddress(message = "Enter valid ip!")
+	@ipAddress()
 	private String ipAddress;
 	
-	@Email
+	@Email()
 	private String email;
 	
+	private String pathImage;
+	
+	public String getPathImage() {
+		return pathImage;
+	}
+	public void setPathImage(String pathImage) {
+		this.pathImage = pathImage;
+	}
 	public String getName() {
 		return name;
 	}

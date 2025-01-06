@@ -15,9 +15,10 @@ import jakarta.validation.Payload;
 @Documented
 @Constraint(validatedBy = {ipAddressImpl.class})
 public @interface ipAddress {
-	String message() default "{jakarta.validation.constraints.NotNull.message}";
+	String message() default "{validation.constraints.ip-address.message}";
 
 	Class<?>[] groups() default { };
 
 	Class<? extends Payload>[] payload() default { };
+
 }

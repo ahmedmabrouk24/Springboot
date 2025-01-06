@@ -1,0 +1,77 @@
+2024-12-27T15:53:22.781+02:00  INFO 10656 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Starting DataJpaBooksProjectApplication using Java 17.0.10 with PID 10656 (E:\Spring github\Springboot\data-jpa-books-project\target\classes started by ahmed in E:\Spring github\Springboot\data-jpa-books-project)
+2024-12-27T15:53:22.786+02:00  INFO 10656 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-12-27T15:53:23.989+02:00  INFO 10656 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27T15:53:24.112+02:00  INFO 10656 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 2 JPA repository interfaces.
+2024-12-27T15:53:25.433+02:00  INFO 10656 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-27T15:53:25.459+02:00  INFO 10656 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-27T15:53:25.459+02:00  INFO 10656 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27T15:53:25.568+02:00  INFO 10656 --- [data-jpa-books-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-27T15:53:25.569+02:00  INFO 10656 --- [data-jpa-books-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2698 ms
+2024-12-27T15:53:25.803+02:00  INFO 10656 --- [data-jpa-books-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27T15:53:25.900+02:00  INFO 10656 --- [data-jpa-books-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-27T15:53:25.993+02:00  INFO 10656 --- [data-jpa-books-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-27T15:53:26.496+02:00  INFO 10656 --- [data-jpa-books-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27T15:53:26.551+02:00  INFO 10656 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-27T15:53:27.258+02:00  INFO 10656 --- [data-jpa-books-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@416c8bb5
+2024-12-27T15:53:27.263+02:00  INFO 10656 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-27T15:53:27.414+02:00  WARN 10656 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-27T15:53:27.417+02:00  WARN 10656 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-27T15:53:27.498+02:00  INFO 10656 --- [data-jpa-books-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27T15:53:30.343+02:00  INFO 10656 --- [data-jpa-books-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27T15:53:30.526+02:00  INFO 10656 --- [data-jpa-books-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27T15:53:31.113+02:00  INFO 10656 --- [data-jpa-books-project] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-27T15:53:32.263+02:00  WARN 10656 --- [data-jpa-books-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-27T15:53:33.127+02:00  INFO 10656 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-27T15:53:33.148+02:00  INFO 10656 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Started DataJpaBooksProjectApplication in 11.245 seconds (process running for 12.168)
+2024-12-27T15:53:33.316+02:00 DEBUG 10656 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.created_by,
+        a1_0.created_date,
+        a1_0.email,
+        a1_0.ip_address,
+        a1_0.last_modified_by,
+        a1_0.last_modified_date,
+        a1_0.name,
+        a1_0.status_code 
+    from
+        authors a1_0
+2024-12-27T15:53:33.399+02:00 DEBUG 10656 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author_id,
+        b1_0.created_by,
+        b1_0.created_date,
+        b1_0.last_modified_by,
+        b1_0.last_modified_date,
+        b1_0.name,
+        b1_0.price,
+        b1_0.status_code 
+    from
+        books b1_0
+2024-12-27T15:53:34.488+02:00  INFO 10656 --- [data-jpa-books-project] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-27T15:53:34.488+02:00  INFO 10656 --- [data-jpa-books-project] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-27T15:53:34.491+02:00  INFO 10656 --- [data-jpa-books-project] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-27T15:53:34.888+02:00 DEBUG 10656 --- [data-jpa-books-project] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.created_by,
+        a1_0.created_date,
+        a1_0.email,
+        a1_0.ip_address,
+        a1_0.last_modified_by,
+        a1_0.last_modified_date,
+        a1_0.name,
+        a1_0.status_code 
+    from
+        authors a1_0 
+    where
+        a1_0.email=?
+2024-12-27T15:53:34.895+02:00 ERROR 10656 --- [data-jpa-books-project] [http-nio-8080-exec-2] com.global.book.Service.AuthorService    : This Email is EXIST!
