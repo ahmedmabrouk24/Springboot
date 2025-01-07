@@ -1,22 +1,22 @@
-2025-01-05T21:34:44.798+02:00  INFO 2764 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Starting DataJpaBooksProjectApplication using Java 17.0.10 with PID 2764 (E:\Spring github\Springboot\data-jpa-books-project\target\classes started by ahmed in E:\Spring github\Springboot\data-jpa-books-project)
-2025-01-05T21:34:44.815+02:00  INFO 2764 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-01-05T21:34:48.149+02:00  INFO 2764 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-05T21:34:48.327+02:00  INFO 2764 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151 ms. Found 2 JPA repository interfaces.
-2025-01-05T21:34:50.357+02:00  INFO 2764 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-01-05T21:34:50.443+02:00  INFO 2764 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-05T21:34:50.443+02:00  INFO 2764 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-05T21:34:50.662+02:00  INFO 2764 --- [data-jpa-books-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-05T21:34:50.663+02:00  INFO 2764 --- [data-jpa-books-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5664 ms
-2025-01-05T21:34:51.210+02:00  INFO 2764 --- [data-jpa-books-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-05T21:34:51.334+02:00  INFO 2764 --- [data-jpa-books-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-05T21:34:51.432+02:00  INFO 2764 --- [data-jpa-books-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-01-05T21:34:51.916+02:00  INFO 2764 --- [data-jpa-books-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-05T21:34:51.971+02:00  INFO 2764 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-01-05T21:34:52.602+02:00  INFO 2764 --- [data-jpa-books-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cdad619
-2025-01-05T21:34:52.606+02:00  INFO 2764 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-01-05T21:34:52.748+02:00  WARN 2764 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-05T21:34:52.751+02:00  WARN 2764 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-01-05T21:34:52.803+02:00  INFO 2764 --- [data-jpa-books-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-01-07T17:50:10.369+02:00  INFO 9580 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Starting DataJpaBooksProjectApplication using Java 17.0.10 with PID 9580 (E:\Spring github\Springboot\data-jpa-books-project\target\classes started by ahmed in E:\Spring github\Springboot\data-jpa-books-project)
+2025-01-07T17:50:10.383+02:00  INFO 9580 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-01-07T17:50:12.398+02:00  INFO 9580 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-07T17:50:12.518+02:00  INFO 9580 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 2 JPA repository interfaces.
+2025-01-07T17:50:14.186+02:00  INFO 9580 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-07T17:50:14.214+02:00  INFO 9580 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-07T17:50:14.214+02:00  INFO 9580 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-07T17:50:14.377+02:00  INFO 9580 --- [data-jpa-books-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-07T17:50:14.378+02:00  INFO 9580 --- [data-jpa-books-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3861 ms
+2025-01-07T17:50:15.015+02:00  INFO 9580 --- [data-jpa-books-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-07T17:50:15.150+02:00  INFO 9580 --- [data-jpa-books-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-07T17:50:15.231+02:00  INFO 9580 --- [data-jpa-books-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-07T17:50:15.745+02:00  INFO 9580 --- [data-jpa-books-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-07T17:50:15.809+02:00  INFO 9580 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-07T17:50:16.403+02:00  INFO 9580 --- [data-jpa-books-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ee3a2ed
+2025-01-07T17:50:16.407+02:00  INFO 9580 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-07T17:50:16.546+02:00  WARN 9580 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-07T17:50:16.549+02:00  WARN 9580 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-01-07T17:50:16.592+02:00  INFO 9580 --- [data-jpa-books-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0
@@ -24,14 +24,16 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-01-05T21:34:54.652+02:00  INFO 2764 --- [data-jpa-books-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-05T21:34:54.835+02:00  INFO 2764 --- [data-jpa-books-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-05T21:34:55.410+02:00  INFO 2764 --- [data-jpa-books-project] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-01-05T21:34:56.532+02:00  WARN 2764 --- [data-jpa-books-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-05T21:34:57.915+02:00  INFO 2764 --- [data-jpa-books-project] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
-2025-01-05T21:34:58.103+02:00  INFO 2764 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-01-05T21:34:58.139+02:00  INFO 2764 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Started DataJpaBooksProjectApplication in 14.831 seconds (process running for 16.049)
-2025-01-05T21:34:58.693+02:00 DEBUG 2764 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
+2025-01-07T17:50:18.193+02:00  INFO 9580 --- [data-jpa-books-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-07T17:50:18.362+02:00  INFO 9580 --- [data-jpa-books-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-07T17:50:19.044+02:00  INFO 9580 --- [data-jpa-books-project] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-07T17:50:20.375+02:00  WARN 9580 --- [data-jpa-books-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-07T17:50:22.142+02:00  INFO 9580 --- [data-jpa-books-project] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2025-01-07T17:50:22.336+02:00  INFO 9580 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-07T17:50:22.374+02:00  INFO 9580 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Started DataJpaBooksProjectApplication in 12.858 seconds (process running for 13.752)
+2025-01-07T17:50:22.493+02:00  INFO 9580 --- [data-jpa-books-project] [main] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findAll
+2025-01-07T17:50:22.499+02:00  INFO 9580 --- [data-jpa-books-project] [main] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findAll
+2025-01-07T17:50:22.646+02:00 DEBUG 9580 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
     select
         a1_0.id,
         a1_0.created_by,
@@ -45,7 +47,8 @@
         a1_0.status_code 
     from
         authors a1_0
-2025-01-05T21:34:58.774+02:00 DEBUG 2764 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
+2025-01-07T17:50:22.728+02:00  INFO 9580 --- [data-jpa-books-project] [main] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findAll
+2025-01-07T17:50:22.734+02:00 DEBUG 9580 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
     select
         b1_0.id,
         b1_0.author_id,
@@ -59,25 +62,25 @@
         b1_0.status_code 
     from
         books b1_0
-2025-01-05T21:36:36.508+02:00  INFO 15324 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Starting DataJpaBooksProjectApplication using Java 17.0.10 with PID 15324 (E:\Spring github\Springboot\data-jpa-books-project\target\classes started by ahmed in E:\Spring github\Springboot\data-jpa-books-project)
-2025-01-05T21:36:36.514+02:00  INFO 15324 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-01-05T21:36:39.368+02:00  INFO 15324 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-05T21:36:39.511+02:00  INFO 15324 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 2 JPA repository interfaces.
-2025-01-05T21:36:41.230+02:00  INFO 15324 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-01-05T21:36:41.261+02:00  INFO 15324 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-05T21:36:41.262+02:00  INFO 15324 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-05T21:36:41.417+02:00  INFO 15324 --- [data-jpa-books-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-05T21:36:41.418+02:00  INFO 15324 --- [data-jpa-books-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4802 ms
-2025-01-05T21:36:41.954+02:00  INFO 15324 --- [data-jpa-books-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-05T21:36:42.074+02:00  INFO 15324 --- [data-jpa-books-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-05T21:36:42.181+02:00  INFO 15324 --- [data-jpa-books-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-01-05T21:36:42.815+02:00  INFO 15324 --- [data-jpa-books-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-05T21:36:42.929+02:00  INFO 15324 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-01-05T21:36:43.582+02:00  INFO 15324 --- [data-jpa-books-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d271d6c
-2025-01-05T21:36:43.587+02:00  INFO 15324 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-01-05T21:36:43.711+02:00  WARN 15324 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-05T21:36:43.714+02:00  WARN 15324 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-01-05T21:36:43.756+02:00  INFO 15324 --- [data-jpa-books-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-01-07T18:20:59.068+02:00  INFO 4132 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Starting DataJpaBooksProjectApplication using Java 17.0.10 with PID 4132 (E:\Spring github\Springboot\data-jpa-books-project\target\classes started by ahmed in E:\Spring github\Springboot\data-jpa-books-project)
+2025-01-07T18:20:59.074+02:00  INFO 4132 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-01-07T18:21:02.152+02:00  INFO 4132 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-07T18:21:02.344+02:00  INFO 4132 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 169 ms. Found 2 JPA repository interfaces.
+2025-01-07T18:21:05.665+02:00  INFO 4132 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-07T18:21:05.743+02:00  INFO 4132 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-07T18:21:05.744+02:00  INFO 4132 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-07T18:21:06.355+02:00  INFO 4132 --- [data-jpa-books-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-07T18:21:06.357+02:00  INFO 4132 --- [data-jpa-books-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7159 ms
+2025-01-07T18:21:08.086+02:00  INFO 4132 --- [data-jpa-books-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-07T18:21:08.341+02:00  INFO 4132 --- [data-jpa-books-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-07T18:21:08.451+02:00  INFO 4132 --- [data-jpa-books-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-07T18:21:09.593+02:00  INFO 4132 --- [data-jpa-books-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-07T18:21:09.773+02:00  INFO 4132 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-07T18:21:11.638+02:00  INFO 4132 --- [data-jpa-books-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27575bcd
+2025-01-07T18:21:11.642+02:00  INFO 4132 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-07T18:21:11.899+02:00  WARN 4132 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-07T18:21:11.906+02:00  WARN 4132 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-01-07T18:21:12.334+02:00  INFO 4132 --- [data-jpa-books-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0
@@ -85,14 +88,16 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-01-05T21:36:46.397+02:00  INFO 15324 --- [data-jpa-books-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-05T21:36:46.530+02:00  INFO 15324 --- [data-jpa-books-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-05T21:36:47.153+02:00  INFO 15324 --- [data-jpa-books-project] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-01-05T21:36:48.578+02:00  WARN 15324 --- [data-jpa-books-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-05T21:36:50.828+02:00  INFO 15324 --- [data-jpa-books-project] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
-2025-01-05T21:36:51.152+02:00  INFO 15324 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-01-05T21:36:51.195+02:00  INFO 15324 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Started DataJpaBooksProjectApplication in 15.683 seconds (process running for 17.515)
-2025-01-05T21:36:51.431+02:00 DEBUG 15324 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
+2025-01-07T18:21:15.872+02:00  INFO 4132 --- [data-jpa-books-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-07T18:21:16.060+02:00  INFO 4132 --- [data-jpa-books-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-07T18:21:17.633+02:00  INFO 4132 --- [data-jpa-books-project] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-07T18:21:20.664+02:00  WARN 4132 --- [data-jpa-books-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-07T18:21:22.818+02:00  INFO 4132 --- [data-jpa-books-project] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2025-01-07T18:21:23.057+02:00  INFO 4132 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-07T18:21:23.106+02:00  INFO 4132 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Started DataJpaBooksProjectApplication in 24.983 seconds (process running for 26.177)
+2025-01-07T18:21:23.217+02:00  INFO 4132 --- [data-jpa-books-project] [main] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findAll
+2025-01-07T18:21:23.224+02:00  INFO 4132 --- [data-jpa-books-project] [main] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findAll
+2025-01-07T18:21:23.364+02:00 DEBUG 4132 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
     select
         a1_0.id,
         a1_0.created_by,
@@ -106,7 +111,8 @@
         a1_0.status_code 
     from
         authors a1_0
-2025-01-05T21:36:51.507+02:00 DEBUG 15324 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
+2025-01-07T18:21:23.429+02:00  INFO 4132 --- [data-jpa-books-project] [main] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findAll
+2025-01-07T18:21:23.434+02:00 DEBUG 4132 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
     select
         b1_0.id,
         b1_0.author_id,
@@ -120,43 +126,50 @@
         b1_0.status_code 
     from
         books b1_0
-2025-01-05T21:36:53.060+02:00  INFO 15324 --- [data-jpa-books-project] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-05T21:36:53.061+02:00  INFO 15324 --- [data-jpa-books-project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-01-05T21:36:53.066+02:00  INFO 15324 --- [data-jpa-books-project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2025-01-05T22:14:20.432+02:00  INFO 14396 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Starting DataJpaBooksProjectApplication using Java 17.0.10 with PID 14396 (E:\Spring github\Springboot\data-jpa-books-project\target\classes started by ahmed in E:\Spring github\Springboot\data-jpa-books-project)
-2025-01-05T22:14:20.437+02:00  INFO 14396 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-01-05T22:14:22.709+02:00  INFO 14396 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-05T22:14:22.833+02:00  INFO 14396 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 2 JPA repository interfaces.
-2025-01-05T22:14:24.479+02:00  INFO 14396 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-01-05T22:14:24.504+02:00  INFO 14396 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-05T22:14:24.505+02:00  INFO 14396 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-05T22:14:24.729+02:00  INFO 14396 --- [data-jpa-books-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-05T22:14:24.730+02:00  INFO 14396 --- [data-jpa-books-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4177 ms
-2025-01-05T22:14:25.428+02:00  INFO 14396 --- [data-jpa-books-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-05T22:14:25.556+02:00  INFO 14396 --- [data-jpa-books-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-05T22:14:25.655+02:00  INFO 14396 --- [data-jpa-books-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-01-05T22:14:26.301+02:00  INFO 14396 --- [data-jpa-books-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-05T22:14:26.364+02:00  INFO 14396 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-01-05T22:14:27.083+02:00  INFO 14396 --- [data-jpa-books-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4af44f2a
-2025-01-05T22:14:27.088+02:00  INFO 14396 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-01-05T22:14:27.183+02:00  WARN 14396 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-05T22:14:27.186+02:00  WARN 14396 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-01-05T22:14:27.253+02:00  INFO 14396 --- [data-jpa-books-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-01-05T22:14:29.018+02:00  INFO 14396 --- [data-jpa-books-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-05T22:14:29.185+02:00  INFO 14396 --- [data-jpa-books-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-05T22:14:29.962+02:00  INFO 14396 --- [data-jpa-books-project] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-01-05T22:14:31.604+02:00  WARN 14396 --- [data-jpa-books-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-05T22:14:33.477+02:00  INFO 14396 --- [data-jpa-books-project] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
-2025-01-05T22:14:33.670+02:00  INFO 14396 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-01-05T22:14:33.715+02:00  INFO 14396 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Started DataJpaBooksProjectApplication in 14.256 seconds (process running for 15.32)
-2025-01-05T22:14:33.930+02:00 DEBUG 14396 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
+2025-01-07T18:21:31.863+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-07T18:21:31.865+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-07T18:21:31.869+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-01-07T18:21:31.985+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-2] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findById
+2025-01-07T18:21:31.985+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-2] com.global.book.aspect.LogTimeAspect     : Args =====>> 1
+2025-01-07T18:21:31.986+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-2] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findById
+2025-01-07T18:21:31.987+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-2] com.global.book.aspect.LogTimeAspect     : Args =====>> 1
+2025-01-07T18:21:32.051+02:00 DEBUG 4132 --- [data-jpa-books-project] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        a1_0.id,
+        a1_0.created_by,
+        a1_0.created_date,
+        a1_0.email,
+        a1_0.ip_address,
+        a1_0.last_modified_by,
+        a1_0.last_modified_date,
+        a1_0.name,
+        a1_0.path_image,
+        a1_0.status_code,
+        b1_0.book_icon,
+        b1_0.created_by,
+        b1_0.created_date,
+        b1_0.last_modified_by,
+        b1_0.last_modified_date,
+        b1_0.name,
+        b1_0.price,
+        b1_0.status_code 
+    from
+        books b1_0 
+    left join
+        authors a1_0 
+            on a1_0.id=b1_0.author_id 
+    where
+        b1_0.id=?
+2025-01-07T18:21:32.065+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-2] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findById
+2025-01-07T18:21:32.066+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-2] com.global.book.aspect.LogTimeAspect     : Args =====>> 1
+2025-01-07T18:22:12.734+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-3] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findById
+2025-01-07T18:22:12.735+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-3] com.global.book.aspect.LogTimeAspect     : Args =====>> 10
+2025-01-07T18:22:12.757+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-3] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findById
+2025-01-07T18:22:12.758+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-3] com.global.book.aspect.LogTimeAspect     : Args =====>> 10
+2025-01-07T18:22:12.762+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-3] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findById
+2025-01-07T18:22:12.762+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-3] com.global.book.aspect.LogTimeAspect     : Args =====>> 10
+2025-01-07T18:22:12.765+02:00 DEBUG 4132 --- [data-jpa-books-project] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
     select
         a1_0.id,
         a1_0.created_by,
@@ -169,58 +182,16 @@
         a1_0.path_image,
         a1_0.status_code 
     from
-        authors a1_0
-2025-01-05T22:14:34.000+02:00 DEBUG 14396 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
-    select
-        b1_0.id,
-        b1_0.author_id,
-        b1_0.book_icon,
-        b1_0.created_by,
-        b1_0.created_date,
-        b1_0.last_modified_by,
-        b1_0.last_modified_date,
-        b1_0.name,
-        b1_0.price,
-        b1_0.status_code 
-    from
-        books b1_0
-2025-01-05T22:14:55.436+02:00  INFO 14396 --- [data-jpa-books-project] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-05T22:14:55.437+02:00  INFO 14396 --- [data-jpa-books-project] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-01-05T22:14:55.441+02:00  INFO 14396 --- [data-jpa-books-project] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2025-01-05T22:16:22.366+02:00  INFO 14088 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Starting DataJpaBooksProjectApplication using Java 17.0.10 with PID 14088 (E:\Spring github\Springboot\data-jpa-books-project\target\classes started by ahmed in E:\Spring github\Springboot\data-jpa-books-project)
-2025-01-05T22:16:22.370+02:00  INFO 14088 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-01-05T22:16:24.267+02:00  INFO 14088 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-05T22:16:24.399+02:00  INFO 14088 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 2 JPA repository interfaces.
-2025-01-05T22:16:26.062+02:00  INFO 14088 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-01-05T22:16:26.089+02:00  INFO 14088 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-05T22:16:26.090+02:00  INFO 14088 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-05T22:16:26.244+02:00  INFO 14088 --- [data-jpa-books-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-05T22:16:26.244+02:00  INFO 14088 --- [data-jpa-books-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3771 ms
-2025-01-05T22:16:26.777+02:00  INFO 14088 --- [data-jpa-books-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-05T22:16:26.872+02:00  INFO 14088 --- [data-jpa-books-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-05T22:16:26.939+02:00  INFO 14088 --- [data-jpa-books-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-01-05T22:16:27.341+02:00  INFO 14088 --- [data-jpa-books-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-05T22:16:27.395+02:00  INFO 14088 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-01-05T22:16:27.930+02:00  INFO 14088 --- [data-jpa-books-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fafbdac
-2025-01-05T22:16:27.935+02:00  INFO 14088 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-01-05T22:16:28.067+02:00  WARN 14088 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-05T22:16:28.072+02:00  WARN 14088 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-01-05T22:16:28.127+02:00  INFO 14088 --- [data-jpa-books-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-01-05T22:16:30.074+02:00  INFO 14088 --- [data-jpa-books-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-05T22:16:30.219+02:00  INFO 14088 --- [data-jpa-books-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-05T22:16:31.247+02:00  INFO 14088 --- [data-jpa-books-project] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-01-05T22:16:32.838+02:00  WARN 14088 --- [data-jpa-books-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-05T22:16:34.807+02:00  INFO 14088 --- [data-jpa-books-project] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
-2025-01-05T22:16:35.489+02:00  INFO 14088 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-01-05T22:16:35.595+02:00  INFO 14088 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Started DataJpaBooksProjectApplication in 14.078 seconds (process running for 15.117)
-2025-01-05T22:16:36.058+02:00 DEBUG 14088 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
+        authors a1_0 
+    where
+        a1_0.id=?
+2025-01-07T18:22:20.519+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-4] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findById
+2025-01-07T18:22:20.519+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-4] com.global.book.aspect.LogTimeAspect     : Args =====>> 1
+2025-01-07T18:22:20.520+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-4] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findById
+2025-01-07T18:22:20.521+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-4] com.global.book.aspect.LogTimeAspect     : Args =====>> 1
+2025-01-07T18:22:20.521+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-4] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findById
+2025-01-07T18:22:20.521+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-4] com.global.book.aspect.LogTimeAspect     : Args =====>> 1
+2025-01-07T18:22:20.526+02:00 DEBUG 4132 --- [data-jpa-books-project] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
     select
         a1_0.id,
         a1_0.created_by,
@@ -233,43 +204,30 @@
         a1_0.path_image,
         a1_0.status_code 
     from
-        authors a1_0
-2025-01-05T22:16:36.148+02:00 DEBUG 14088 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
-    select
-        b1_0.id,
-        b1_0.author_id,
-        b1_0.book_icon,
-        b1_0.created_by,
-        b1_0.created_date,
-        b1_0.last_modified_by,
-        b1_0.last_modified_date,
-        b1_0.name,
-        b1_0.price,
-        b1_0.status_code 
-    from
-        books b1_0
-2025-01-05T22:16:36.985+02:00  INFO 14088 --- [data-jpa-books-project] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-05T22:16:36.986+02:00  INFO 14088 --- [data-jpa-books-project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-01-05T22:16:36.990+02:00  INFO 14088 --- [data-jpa-books-project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2025-01-05T22:17:48.475+02:00  INFO 14588 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Starting DataJpaBooksProjectApplication using Java 17.0.10 with PID 14588 (E:\Spring github\Springboot\data-jpa-books-project\target\classes started by ahmed in E:\Spring github\Springboot\data-jpa-books-project)
-2025-01-05T22:17:48.480+02:00  INFO 14588 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-01-05T22:17:50.679+02:00  INFO 14588 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-05T22:17:50.812+02:00  INFO 14588 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112 ms. Found 2 JPA repository interfaces.
-2025-01-05T22:17:52.323+02:00  INFO 14588 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-01-05T22:17:52.350+02:00  INFO 14588 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-05T22:17:52.351+02:00  INFO 14588 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-05T22:17:52.500+02:00  INFO 14588 --- [data-jpa-books-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-05T22:17:52.501+02:00  INFO 14588 --- [data-jpa-books-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3904 ms
-2025-01-05T22:17:53.037+02:00  INFO 14588 --- [data-jpa-books-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-05T22:17:53.135+02:00  INFO 14588 --- [data-jpa-books-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-05T22:17:53.202+02:00  INFO 14588 --- [data-jpa-books-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-01-05T22:17:53.631+02:00  INFO 14588 --- [data-jpa-books-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-05T22:17:53.688+02:00  INFO 14588 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-01-05T22:17:54.209+02:00  INFO 14588 --- [data-jpa-books-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63243c8f
-2025-01-05T22:17:54.214+02:00  INFO 14588 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-01-05T22:17:54.301+02:00  WARN 14588 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-05T22:17:54.303+02:00  WARN 14588 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-01-05T22:17:54.354+02:00  INFO 14588 --- [data-jpa-books-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+        authors a1_0 
+    where
+        a1_0.id=?
+2025-01-07T18:22:20.532+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-4] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findById
+2025-01-07T18:22:20.532+02:00  INFO 4132 --- [data-jpa-books-project] [http-nio-8080-exec-4] com.global.book.aspect.LogTimeAspect     : Args =====>> 1
+2025-01-07T18:45:32.145+02:00  INFO 7548 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Starting DataJpaBooksProjectApplication using Java 17.0.10 with PID 7548 (E:\Spring github\Springboot\data-jpa-books-project\target\classes started by ahmed in E:\Spring github\Springboot\data-jpa-books-project)
+2025-01-07T18:45:32.150+02:00  INFO 7548 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-01-07T18:45:34.101+02:00  INFO 7548 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-07T18:45:34.230+02:00  INFO 7548 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 2 JPA repository interfaces.
+2025-01-07T18:45:35.790+02:00  INFO 7548 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-07T18:45:35.814+02:00  INFO 7548 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-07T18:45:35.815+02:00  INFO 7548 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-07T18:45:35.966+02:00  INFO 7548 --- [data-jpa-books-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-07T18:45:35.967+02:00  INFO 7548 --- [data-jpa-books-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3716 ms
+2025-01-07T18:45:36.552+02:00  INFO 7548 --- [data-jpa-books-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-07T18:45:36.656+02:00  INFO 7548 --- [data-jpa-books-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-07T18:45:36.723+02:00  INFO 7548 --- [data-jpa-books-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-07T18:45:37.146+02:00  INFO 7548 --- [data-jpa-books-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-07T18:45:37.209+02:00  INFO 7548 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-07T18:45:37.822+02:00  INFO 7548 --- [data-jpa-books-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27575bcd
+2025-01-07T18:45:37.826+02:00  INFO 7548 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-07T18:45:37.952+02:00  WARN 7548 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-07T18:45:37.955+02:00  WARN 7548 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-01-07T18:45:38.006+02:00  INFO 7548 --- [data-jpa-books-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0
@@ -277,177 +235,7 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-01-05T22:17:56.026+02:00  INFO 14588 --- [data-jpa-books-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-05T22:17:56.153+02:00  INFO 14588 --- [data-jpa-books-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-05T22:17:56.787+02:00  INFO 14588 --- [data-jpa-books-project] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-01-05T22:17:57.966+02:00  WARN 14588 --- [data-jpa-books-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-05T22:17:59.626+02:00  INFO 14588 --- [data-jpa-books-project] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
-2025-01-05T22:17:59.831+02:00  INFO 14588 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-01-05T22:17:59.883+02:00  INFO 14588 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Started DataJpaBooksProjectApplication in 12.284 seconds (process running for 13.335)
-2025-01-05T22:18:00.283+02:00 DEBUG 14588 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
-    select
-        a1_0.id,
-        a1_0.created_by,
-        a1_0.created_date,
-        a1_0.email,
-        a1_0.ip_address,
-        a1_0.last_modified_by,
-        a1_0.last_modified_date,
-        a1_0.name,
-        a1_0.path_image,
-        a1_0.status_code 
-    from
-        authors a1_0
-2025-01-05T22:18:00.388+02:00 DEBUG 14588 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
-    select
-        b1_0.id,
-        b1_0.author_id,
-        b1_0.book_icon,
-        b1_0.created_by,
-        b1_0.created_date,
-        b1_0.last_modified_by,
-        b1_0.last_modified_date,
-        b1_0.name,
-        b1_0.price,
-        b1_0.status_code 
-    from
-        books b1_0
-2025-01-05T22:18:10.017+02:00  INFO 14588 --- [data-jpa-books-project] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-05T22:18:10.018+02:00  INFO 14588 --- [data-jpa-books-project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-01-05T22:18:10.034+02:00  INFO 14588 --- [data-jpa-books-project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
-2025-01-05T22:18:53.057+02:00  INFO 7044 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Starting DataJpaBooksProjectApplication using Java 17.0.10 with PID 7044 (E:\Spring github\Springboot\data-jpa-books-project\target\classes started by ahmed in E:\Spring github\Springboot\data-jpa-books-project)
-2025-01-05T22:18:53.062+02:00  INFO 7044 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-01-05T22:18:55.030+02:00  INFO 7044 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-05T22:18:55.201+02:00  INFO 7044 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134 ms. Found 2 JPA repository interfaces.
-2025-01-05T22:18:56.802+02:00  INFO 7044 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-01-05T22:18:56.826+02:00  INFO 7044 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-05T22:18:56.827+02:00  INFO 7044 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-05T22:18:56.977+02:00  INFO 7044 --- [data-jpa-books-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-05T22:18:56.978+02:00  INFO 7044 --- [data-jpa-books-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3812 ms
-2025-01-05T22:18:57.572+02:00  INFO 7044 --- [data-jpa-books-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-05T22:18:57.695+02:00  INFO 7044 --- [data-jpa-books-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-05T22:18:57.768+02:00  INFO 7044 --- [data-jpa-books-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-01-05T22:18:58.238+02:00  INFO 7044 --- [data-jpa-books-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-05T22:18:58.322+02:00  INFO 7044 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-01-05T22:18:58.941+02:00  INFO 7044 --- [data-jpa-books-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50b624da
-2025-01-05T22:18:58.944+02:00  INFO 7044 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-01-05T22:18:59.036+02:00  WARN 7044 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-05T22:18:59.038+02:00  WARN 7044 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-01-05T22:18:59.096+02:00  INFO 7044 --- [data-jpa-books-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-01-05T22:19:01.848+02:00  INFO 7044 --- [data-jpa-books-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-05T22:19:02.017+02:00  INFO 7044 --- [data-jpa-books-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-05T22:19:02.848+02:00  INFO 7044 --- [data-jpa-books-project] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-01-05T22:19:04.666+02:00  WARN 7044 --- [data-jpa-books-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-05T22:19:07.267+02:00  INFO 7044 --- [data-jpa-books-project] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
-2025-01-05T22:19:07.547+02:00  INFO 7044 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-01-05T22:19:07.597+02:00  INFO 7044 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Started DataJpaBooksProjectApplication in 15.371 seconds (process running for 16.309)
-2025-01-05T22:19:07.881+02:00 DEBUG 7044 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
-    select
-        a1_0.id,
-        a1_0.created_by,
-        a1_0.created_date,
-        a1_0.email,
-        a1_0.ip_address,
-        a1_0.last_modified_by,
-        a1_0.last_modified_date,
-        a1_0.name,
-        a1_0.path_image,
-        a1_0.status_code 
-    from
-        authors a1_0
-2025-01-05T22:19:07.999+02:00 DEBUG 7044 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
-    select
-        b1_0.id,
-        b1_0.author_id,
-        b1_0.book_icon,
-        b1_0.created_by,
-        b1_0.created_date,
-        b1_0.last_modified_by,
-        b1_0.last_modified_date,
-        b1_0.name,
-        b1_0.price,
-        b1_0.status_code 
-    from
-        books b1_0
-2025-01-05T22:19:08.137+02:00  INFO 7044 --- [data-jpa-books-project] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-05T22:19:08.137+02:00  INFO 7044 --- [data-jpa-books-project] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-01-05T22:19:08.142+02:00  INFO 7044 --- [data-jpa-books-project] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2025-01-05T22:19:08.244+02:00  INFO 7044 --- [data-jpa-books-project] [http-nio-8080-exec-2] com.global.book.aspect.LogTimeAspect     : KPI:[method-execution]	for: List com.global.book.Service.PostService.getAllPosts()	withArgs: ()	took: 19 ms.
-2025-01-05T22:20:28.633+02:00  INFO 7044 --- [data-jpa-books-project] [http-nio-8080-exec-5] com.global.book.aspect.LogTimeAspect     : KPI:[method-execution]	for: PostDto com.global.book.Service.PostService.getPostById(Long)	withArgs: (10)	took: 1 ms.
-2025-01-05T23:11:04.500+02:00  INFO 2460 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Starting DataJpaBooksProjectApplication using Java 17.0.10 with PID 2460 (E:\Spring github\Springboot\data-jpa-books-project\target\classes started by ahmed in E:\Spring github\Springboot\data-jpa-books-project)
-2025-01-05T23:11:04.505+02:00  INFO 2460 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-01-05T23:11:07.009+02:00  INFO 2460 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-05T23:11:07.162+02:00  INFO 2460 --- [data-jpa-books-project] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131 ms. Found 2 JPA repository interfaces.
-2025-01-05T23:11:08.959+02:00  INFO 2460 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-01-05T23:11:08.983+02:00  INFO 2460 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-05T23:11:08.984+02:00  INFO 2460 --- [data-jpa-books-project] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-05T23:11:09.134+02:00  INFO 2460 --- [data-jpa-books-project] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-05T23:11:09.135+02:00  INFO 2460 --- [data-jpa-books-project] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4512 ms
-2025-01-05T23:11:09.748+02:00  INFO 2460 --- [data-jpa-books-project] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-05T23:11:09.871+02:00  INFO 2460 --- [data-jpa-books-project] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-05T23:11:09.936+02:00  INFO 2460 --- [data-jpa-books-project] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-01-05T23:11:10.470+02:00  INFO 2460 --- [data-jpa-books-project] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-05T23:11:10.531+02:00  INFO 2460 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-01-05T23:11:11.186+02:00  INFO 2460 --- [data-jpa-books-project] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3892802b
-2025-01-05T23:11:11.190+02:00  INFO 2460 --- [data-jpa-books-project] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-01-05T23:11:11.297+02:00  WARN 2460 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-05T23:11:11.301+02:00  WARN 2460 --- [data-jpa-books-project] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-01-05T23:11:11.349+02:00  INFO 2460 --- [data-jpa-books-project] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-01-05T23:11:13.056+02:00  INFO 2460 --- [data-jpa-books-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-05T23:11:13.201+02:00  INFO 2460 --- [data-jpa-books-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-05T23:11:13.947+02:00  INFO 2460 --- [data-jpa-books-project] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-01-05T23:11:15.405+02:00  WARN 2460 --- [data-jpa-books-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-05T23:11:18.544+02:00  INFO 2460 --- [data-jpa-books-project] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
-2025-01-05T23:11:18.811+02:00  INFO 2460 --- [data-jpa-books-project] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-01-05T23:11:18.870+02:00  INFO 2460 --- [data-jpa-books-project] [main] c.g.book.DataJpaBooksProjectApplication  : Started DataJpaBooksProjectApplication in 15.494 seconds (process running for 17.465)
-2025-01-05T23:11:18.996+02:00  INFO 2460 --- [data-jpa-books-project] [main] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findAll
-2025-01-05T23:11:19.240+02:00 DEBUG 2460 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
-    select
-        a1_0.id,
-        a1_0.created_by,
-        a1_0.created_date,
-        a1_0.email,
-        a1_0.ip_address,
-        a1_0.last_modified_by,
-        a1_0.last_modified_date,
-        a1_0.name,
-        a1_0.path_image,
-        a1_0.status_code 
-    from
-        authors a1_0
-2025-01-05T23:11:19.346+02:00  INFO 2460 --- [data-jpa-books-project] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-05T23:11:19.347+02:00  INFO 2460 --- [data-jpa-books-project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-01-05T23:11:19.353+02:00  INFO 2460 --- [data-jpa-books-project] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2025-01-05T23:11:19.376+02:00  INFO 2460 --- [data-jpa-books-project] [main] com.global.book.aspect.LogTimeAspect     : Method Name =====>> findAll
-2025-01-05T23:11:19.383+02:00 DEBUG 2460 --- [data-jpa-books-project] [main] org.hibernate.SQL                        : 
-    select
-        b1_0.id,
-        b1_0.author_id,
-        b1_0.book_icon,
-        b1_0.created_by,
-        b1_0.created_date,
-        b1_0.last_modified_by,
-        b1_0.last_modified_date,
-        b1_0.name,
-        b1_0.price,
-        b1_0.status_code 
-    from
-        books b1_0
-2025-01-05T23:11:19.501+02:00  INFO 2460 --- [data-jpa-books-project] [http-nio-8080-exec-1] com.global.book.aspect.LogTimeAspect     : Method Name =====>> getPostById
-2025-01-05T23:11:19.502+02:00  INFO 2460 --- [data-jpa-books-project] [http-nio-8080-exec-1] com.global.book.aspect.LogTimeAspect     : Args =====>> 10
-2025-01-05T23:11:19.503+02:00  INFO 2460 --- [data-jpa-books-project] [http-nio-8080-exec-1] com.global.book.aspect.LogTimeAspect     : Method Name =====>> getPostById
-2025-01-05T23:11:19.503+02:00  INFO 2460 --- [data-jpa-books-project] [http-nio-8080-exec-1] com.global.book.aspect.LogTimeAspect     : Args =====>> 10
+2025-01-07T18:45:39.675+02:00  INFO 7548 --- [data-jpa-books-project] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-07T18:45:39.841+02:00  INFO 7548 --- [data-jpa-books-project] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-07T18:45:40.960+02:00  INFO 7548 --- [data-jpa-books-project] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-07T18:45:42.279+02:00  WARN 7548 --- [data-jpa-books-project] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning

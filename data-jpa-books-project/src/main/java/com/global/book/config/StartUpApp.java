@@ -6,10 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import com.global.book.Entity.Author;
-import com.global.book.Entity.Book;
-import com.global.book.Service.AuthorService;
-import com.global.book.Service.BookService;
+import com.global.book.entity.Author;
+import com.global.book.entity.Book;
+import com.global.book.service.AuthorService;
+import com.global.book.service.BookService;
 
 @Component
 public class StartUpApp implements CommandLineRunner{
