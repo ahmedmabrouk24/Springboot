@@ -11,6 +11,5 @@ public interface AuthorMapper {
 	//@Mapping(source = "address", target = "ipAddress")
 	Author mapToEntity(AuthorDto authorDto);
 	
-	
 	AuthorDto mapToDto(Author author);
 }

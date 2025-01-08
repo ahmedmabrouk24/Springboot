@@ -38,8 +38,8 @@ public class BaseService<T extends BaseEntity<ID>, ID extends Number> {
 	public List<T> findAll() {
 		return baseRepository.findAll();
 	}
-	public ResponseEntity<?> insert(T entity) {
-		return ResponseEntity.ok(baseRepository.save(entity));
+	public T insert(T entity) {
+		return baseRepository.save(entity);
 	}
 	public ResponseEntity<?> insertAll(List<T> entity) {
 		return ResponseEntity.ok(baseRepository.saveAll(entity));
